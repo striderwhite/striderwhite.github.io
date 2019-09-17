@@ -1,0 +1,89 @@
+.container{
+    height:100%
+}
+
+.introdiv{
+    height:100%;
+    background-image: url('../assets/bg_7.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover,;
+    /* background-color: #464646; */
+}
+
+.centerdiv{
+    margin-top:25%;
+    color:white;
+}
+
+.imgshadow{
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+}
+
+href, a{
+  white-space: pre-wrap; /* CSS3 */    
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */    
+  white-space: -o-pre-wrap; /* Opera 7 */    
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+
+.coolbg{
+    /* background:black; */
+}
+
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .skillbar-bar:before {
+    background: #999;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #111;
+    transition-property: width, background-color;
+  }
+  
+  .skillbar-title {
+    color: #111;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  .skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #111;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  /* CENTERING ONLY */
+  /* .wrapper {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  } */
+  
